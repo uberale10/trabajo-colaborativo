@@ -334,6 +334,7 @@ section{
 	float: left;
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
+
 }
 aside{
 	width: 280px;
@@ -425,10 +426,14 @@ ul li {
 	
 
 }
-  ul li:hover ul  {
+  ul li:hover > ul  {
 
  	display: block;
  	position: relative;
 		
  }
+
+
+
+
 
