@@ -404,36 +404,37 @@ p {
 
 
 
-
-
-
-ul li a {
-	
+nav ul li a {
 	color: #fff;
 	display: block;
 	text-decoration: none;
-}
+        }
 
-ul li {
+
+
+nav ul li {
+	
 	float: left;
 	width: 65px;
-}
+      }
 
 
- ul li ul {
+
+ nav ul li ul {
 	display: none;
 	position: absolute;
-	
+          }
 
-}
-  ul li:hover > ul  {
-
+  nav ul li:hover > ul  
+          {     	 
+  padding: 0em;
  	display: block;
- 	position: relative;
-		
- }
+ 	position:relative;
+          }
+
+ nav li a:hover  {
+background-color:#434343;
+}
 
 
-
-
-
+ 
